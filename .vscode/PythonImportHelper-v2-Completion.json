@@ -31,7 +31,7 @@
         "kind": 5,
         "importPath": "calculadora",
         "description": "calculadora",
-        "peekOfCode": "numeros = [10, 20, 30, 40, 50]\nprint(f\"A média é: {calcular_media(numeros)}\")\nprint(f\"Parabéns vocé passou com média {calcular_media(numeros)} pontos!\")",
+        "peekOfCode": "numeros = [10, 20, 30, 40, 50]\nprint(f\"A média é: {calcular_media(numeros)}\")\nprint(f\"Parabéns vocé passou com média {calcular_media(numeros)} pontos!\")\nprint(f\"Parabéns vocé passou !\")",
         "detail": "calculadora",
         "documentation": {}
     }
