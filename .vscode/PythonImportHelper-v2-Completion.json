@@ -2,6 +2,24 @@
     {
         "label": "calcular_media",
         "kind": 2,
+        "importPath": "versionamento_aula.calculadora",
+        "description": "versionamento_aula.calculadora",
+        "peekOfCode": "def calcular_media(numeros):\n    if not numeros:\n        return 0\n    soma = sum(numeros)\n    media = soma / len(numeros)\n    return media\n# Teste da função\nnumeros = [10, 20, 30, 40, 50]\nprint(f\"A média é: {calcular_media(numeros)}\")",
+        "detail": "versionamento_aula.calculadora",
+        "documentation": {}
+    },
+    {
+        "label": "numeros",
+        "kind": 5,
+        "importPath": "versionamento_aula.calculadora",
+        "description": "versionamento_aula.calculadora",
+        "peekOfCode": "numeros = [10, 20, 30, 40, 50]\nprint(f\"A média é: {calcular_media(numeros)}\")",
+        "detail": "versionamento_aula.calculadora",
+        "documentation": {}
+    },
+    {
+        "label": "calcular_media",
+        "kind": 2,
         "importPath": "calculadora",
         "description": "calculadora",
         "peekOfCode": "def calcular_media(numeros):\n    if not numeros:\n        return 0\n    soma = sum(numeros)\n    media = soma / len(numeros)\n    return media\n# Teste da função\nnumeros = [10, 20, 30, 40, 50]\nprint(f\"A média é: {calcular_media(numeros)}\")\nprint(f\"Parabéns vocé passou com média {calcular_media(numeros)} pontos!\")",
