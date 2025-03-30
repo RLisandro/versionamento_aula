@@ -8,6 +8,12 @@ def calcular_media(numeros):
 
 # Teste da função
 numeros = [10, 20, 30, 40, 50]
-print(f"A média é: {calcular_media(numeros)}")
-print(f"Parabéns vocé passou com média {calcular_media(numeros)} pontos!")
-print(f"Parabéns vocé passou !")
+media_calculada = calcular_media(numeros)
+
+print(f"A média é: {media_calculada}")
+
+if media_calculada >= 30:
+    print(f"Parabéns! Você passou com média {media_calculada} pontos!")
+else:
+    print(f"Infelizmente, você não atingiu a média necessária.")
+

@@ -22,7 +22,7 @@
         "kind": 2,
         "importPath": "calculadora",
         "description": "calculadora",
-        "peekOfCode": "def calcular_media(numeros):\n    if not numeros:\n        return 0\n    soma = sum(numeros)\n    media = soma / len(numeros)\n    return media\n# Teste da função\nnumeros = [10, 20, 30, 40, 50]\nprint(f\"A média é: {calcular_media(numeros)}\")\nprint(f\"Parabéns vocé passou com média {calcular_media(numeros)} pontos!\")",
+        "peekOfCode": "def calcular_media(numeros):\n    if not numeros:\n        return 0\n    soma = sum(numeros)\n    media = soma / len(numeros)\n    return media\n# Teste da função\nnumeros = [10, 20, 30, 40, 50]\nmedia_calculada = calcular_media(numeros)\nprint(f\"A média é: {media_calculada}\")",
         "detail": "calculadora",
         "documentation": {}
     },
@@ -31,7 +31,16 @@
         "kind": 5,
         "importPath": "calculadora",
         "description": "calculadora",
-        "peekOfCode": "numeros = [10, 20, 30, 40, 50]\nprint(f\"A média é: {calcular_media(numeros)}\")\nprint(f\"Parabéns vocé passou com média {calcular_media(numeros)} pontos!\")\nprint(f\"Parabéns vocé passou !\")",
+        "peekOfCode": "numeros = [10, 20, 30, 40, 50]\nmedia_calculada = calcular_media(numeros)\nprint(f\"A média é: {media_calculada}\")\nif media_calculada >= 30:\n    print(f\"Parabéns! Você passou com média {media_calculada} pontos!\")\nelse:\n    print(f\"Infelizmente, você não atingiu a média necessária.\")",
+        "detail": "calculadora",
+        "documentation": {}
+    },
+    {
+        "label": "media_calculada",
+        "kind": 5,
+        "importPath": "calculadora",
+        "description": "calculadora",
+        "peekOfCode": "media_calculada = calcular_media(numeros)\nprint(f\"A média é: {media_calculada}\")\nif media_calculada >= 30:\n    print(f\"Parabéns! Você passou com média {media_calculada} pontos!\")\nelse:\n    print(f\"Infelizmente, você não atingiu a média necessária.\")",
         "detail": "calculadora",
         "documentation": {}
     }
