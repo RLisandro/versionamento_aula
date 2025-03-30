@@ -5,6 +5,8 @@ def calcular_media(numeros):
     media = soma / len(numeros)
     return media
 
+
 # Teste da função
 numeros = [10, 20, 30, 40, 50]
 print(f"A média é: {calcular_media(numeros)}")
+print(f"Parabéns vocé passou com média {calcular_media(numeros)} pontos!")
